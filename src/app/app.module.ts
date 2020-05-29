@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { CondicionalComponent } from './directivas/condicional/condicional.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CondicionalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
