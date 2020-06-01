@@ -1,0 +1,6 @@
+<hr>
+<h1>Ejemplo de directiva [ngStyle]</h1>
+<hr>
+<input type="number" placeholder="Escriba su puntuación" [(ngModel)]="puntuacion">
+<!-- Sintaxis ngStyle [ngStyle]="{'propiedadCSS': expresion JavaScript}" -->
+<p>La puntuación obtenida es: <span [ngStyle]="{'color': puntuacion >= 5 ? 'green' : 'red'}">{{puntuacion}}</span></p>

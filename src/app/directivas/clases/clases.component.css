@@ -1,0 +1,11 @@
+.aprobado {
+    background-color: green;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+.suspenso {
+    background-color: red;
+    color: white;
+    padding: 0.5em 1em;
+}

@@ -1,0 +1,5 @@
+<hr>
+<h1>Ejemplo de directiva [ngClass]</h1>
+<hr>
+<input type="number" placeholder="Escriba la puntuación" [(ngModel)]="puntuacion">
+<p [ngClass]="{aprobado: puntuacion >= 5, suspenso: puntuacion < 5}" >Puntuación obtenida {{puntuacion}}</p>

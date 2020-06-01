@@ -1,0 +1,14 @@
+<hr>
+<h1>Ejemplo de directiva [ngSwitch]</h1>
+<hr>
+<div *ngFor="let jugador of jugadores" [ngSwitch]="jugador.equipo"> 
+    <div *ngSwitchCase="'lakers'" class="jugador lakers-style">
+        {{jugador.nombre}}
+    </div>
+    <div *ngSwitchCase="'celtics'" class="jugador celtics-style">
+        {{jugador.nombre}}
+    </div>
+    <div *ngSwitchCase="'bulls'" class="jugador bulls-style">
+        {{jugador.nombre}}
+    </div>
+</div>
